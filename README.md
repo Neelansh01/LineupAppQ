@@ -41,6 +41,6 @@ Static:
 
 ## Steps to run the code
 1. **Install pre-requisites**: SQL Server (or XAMPP software which has the Apache tool as well), Anaconda (for python), Python libraries (mentioned in the notebook), Jupyter Notebook in Anaconda
-2. **Host the jupyter notebook** and follow the instructions in the notebook. For hosting the Notebook just run "jupyter notebook" ommand in the Conda Prompt. This will host the application on the address which will be visible in the notebook at the bottom of the running cell (which is the last one).
+2. **Host the jupyter notebook** and follow the instructions in the notebook. For hosting the Notebook just run "jupyter notebook" command in the Conda Prompt. This will host the application on the address which will be visible in the notebook at the bottom of the running cell (which is the last one).
 3. Select file of any format and submit. File will be converted into Binarry String and stores in DB. If there is any error, then the backup zip will be maintained in the static folder.
 4. For now, we are currently just saving the files in the Home Folder for testing and being sure about the selected file. This functionality can be removed.
