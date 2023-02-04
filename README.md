@@ -21,7 +21,7 @@ Create an application to provide an interface for users for selecting files whic
 ## Code Walkthrough
 Flask maintains a fixed structure. For our purpose, where we haven't used any CSS or Javascript, the structure is:
 
-Flask
+Flask\n
 |--Server: Jupyter Notebook or python file containing the server script.
 |--template: HTML Files
 |--static: Backup files
