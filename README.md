@@ -23,11 +23,11 @@ Flask maintains a fixed structure. For our purpose, where we haven't used any CS
 
 Flask
 
-|--Server: Jupyter Notebook or python file containing the server script.
+--|--Server: Jupyter Notebook or python file containing the server script.
 
-|--template: HTML Files
+--|--template: HTML Files
 
-|--static: Backup files
+--|--static: Backup files
 
 Server:
 1. Contains python script to run the Flask application server.
@@ -37,3 +37,10 @@ Template:
 
 Static:
 1. Contains files which were not pushed correctly to the DB in zip format for backup.
+
+
+## Steps to run the code
+1. **Install pre-requisites**: SQL Server (or XAMPP software), Anaconda (for python), Python libraries, Jupyter Notebook in Anaconda
+2. **Host the jupyter notebook** and follow the instructions in the notebook. This will host the application on the address which will be visible in the notebook at the bottom of the running cell (which is the last one).
+3. Select file of any format and submit. File will be converted into Binarry String and stores in DB. If there is any error, then the backup zip will be maintained in the static folder.
+4. For now, we are currently just saving the files in the Home Folder as well for testing if the file was correctly uploaded. This functionality can be removed.
